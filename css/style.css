@@ -30,5 +30,8 @@
   width: 100%;
   padding: 5PX;
   text-align: center;
-
+  display: none;
+}
+.box:hover .heart{
+  display: block;
 }
