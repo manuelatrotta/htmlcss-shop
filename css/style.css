@@ -21,6 +21,7 @@ body{
 .box{
   display: inline-block;
   position: relative;
+  cursor:painter;
 }
 .box .discount{
   position: absolute;
