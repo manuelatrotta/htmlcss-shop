@@ -3,10 +3,21 @@
   margin: 0;
   padding: 0;
 }
+/*body characteristics*/
+body{
+  padding: 10px;
+}
+/*container characteristics*/
+.container{
+  margin: auto;
+  text-align: center;
+}
+/*section characteristics*/
 .row{
   margin-bottom: 20px;
 }
 
+/* div elements*/
 .box{
   display: inline-block;
   position: relative;
@@ -17,11 +28,9 @@
   right: 0;
   z-index: 1;
   background-color: #008800;
-
 }
 .box:nth-child(even) .discount{
   background-color:#FF0000;
-
 }
 .box .heart{
   color:#FF0000;
@@ -32,6 +41,7 @@
   text-align: center;
   display: none;
 }
+/*state hover for heart*/
 .box:hover .heart{
   display: block;
 }
