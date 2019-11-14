@@ -3,7 +3,22 @@
   margin: 0;
   padding: 0;
 }
+.row{
+  margin-bottom: 20px;
+}
 
 .box{
   display: inline-block;
+  position: relative;
+}
+.box .discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #008800;
+
+}
+.box:nth-child(even) .discount{
+  background-color: #FF0000;
 }
