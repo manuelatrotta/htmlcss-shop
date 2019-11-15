@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Header*/
+header{
+text-align: center;
+color: #008080;
+padding: 20px;
+}
+header:hover {
+  text-decoration: underline;
+}
+/*body characteristics*/
+body{
+  padding: 10px;
+}
+/*container characteristics*/
+.container{
+  margin: auto;
+  text-align: center;
+}
+/*section characteristics*/
+.list{
+  margin-bottom: 20px;
+}
+
+.box{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+/*caracheristies p*/
+.box p{
+  font-style: oblique;
+  font-size: 20px;
+}
+/*list*/
+.box li {
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid purple;
+  background-color: #FFDEAD;
+  width: 30%;
+  height: 20%;
+  list-style: none;
+  position: relative;
+}
+/*caracheristies .discount*/
+.box .discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #008800;
+  border-radius: 4px;
+}
+/*caracheristies .heart*/
+.box .heart{
+  color:#FF0000;
+  width: 100%;
+  padding: 10%;
+  text-align: center;
+}
+/*state of .heart*/
+.box:hover .heart{
+  color: #ffffff;
+  cursor: alias;
+}
+/*footer*/
+footer {
+  text-align: right;
+}
